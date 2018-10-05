@@ -22,5 +22,6 @@ while True:
 			else:
 				print('小了小了')
 		i=i+1
-		print('请再猜,您还有' + str(10-i))
+		if i != 10:
+			print('请再猜,您还有' + str(10-i))
 
