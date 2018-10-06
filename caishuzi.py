@@ -18,10 +18,10 @@ while True:
 			break
 		else:
 			if num > guess :
-				print('大了大了')
+				print('大了大了\n')
 			else:
-				print('小了小了')
+				print('小了小了\n')
 		i=i+1
 		if i != 10:
-			print('请再猜,您还有' + str(10-i))
+			print('请再猜,您还有' + str(10-i) + '次机会')
 
